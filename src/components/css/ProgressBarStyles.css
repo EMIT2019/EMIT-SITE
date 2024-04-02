@@ -1,0 +1,14 @@
+@font-face {
+    font-family:lucoteciaBold;
+    src: url("src/assets/fonts/lucotecia.bold.otf");
+}
+
+.progress_bar_container h4 {
+    font-size:20px;
+    color:#ffffff;
+    font-family:lucoteciaBold;
+}
+
+.progress_bar_inner_container progress {
+    width:70%;
+}

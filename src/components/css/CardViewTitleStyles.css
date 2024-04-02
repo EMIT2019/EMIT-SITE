@@ -1,0 +1,17 @@
+.title_container {
+    width:fit-content;
+    height:fit-content;
+}
+
+@font-face {
+    font-family:lucoteciaBold;
+    src: url("src/assets/fonts/lucotecia.bold.otf");
+}
+
+.title_container h2 {
+    color:#ffffff;
+    font-size:30px;
+    margin:0;
+    padding:0;
+    font-family:lucoteciaBold;
+}

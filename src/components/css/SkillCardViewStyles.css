@@ -1,0 +1,28 @@
+.skill_card_view_container {
+    width:450px;
+    height:fit-content;
+    background-color:#161616;
+    border-radius:15px;
+    padding:15px;
+}
+
+.levels_section {
+    width:calc(450px - 30px);
+    height:fit-content;
+    margin-top:20px;
+}
+
+@font-face {
+    font-family:lucoteciaRegular;
+    src: url("src/assets/fonts/lucotecia.regular.otf");
+}
+
+.card_description {
+    margin-top:30px;
+}
+
+.card_description p {
+    font-family:lucoteciaRegular;
+    color:#B5B5B5;
+    font-size:25px;
+}
