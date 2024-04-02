@@ -1,6 +1,7 @@
-import CardViewTitleComponent from "./CardViewTitleComponent"
 import ProgressBarComponent from "./ProgressBarComponent"
 import './css/SkillCardViewStyles.css'
+import './css/CardViewParagraphStyles.css'
+import './css/CardViewTitleStyles.css'
 
 function SkillCardViewComponent(data){
 
@@ -11,7 +12,9 @@ function SkillCardViewComponent(data){
     return(
         <>
         <div className="skill_card_view_container">
-            <CardViewTitleComponent title={card_title}/>
+            <div className="title_container">
+                <h2>{card_title}</h2>
+            </div>
             <div className="levels_section">
                 {card_skill_levels.map((item, index) => (
                     <ProgressBarComponent key={index} title={item.technology} progress={item.level}/>

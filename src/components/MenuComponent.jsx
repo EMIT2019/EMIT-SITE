@@ -1,6 +1,8 @@
 import './css/MenuStyles.css'
+import { Link } from 'react-router-dom'
 
 function MenuComponent(){
+
     return(
         <>
         <div className="menu_container">
@@ -10,10 +12,10 @@ function MenuComponent(){
                         <h4>HOME</h4>
                     </li>
                     <li>
-                        <h4>SKILLS</h4>
+                        <Link to="/skills"><h4>SKILLS</h4></Link>
                     </li>
                     <li>
-                        <h4>EXPERIENCE</h4>
+                        <Link to="/experience"><h4>EXPERIENCE</h4></Link>
                     </li>
                     <li>
                         <h4>PROJECTS</h4>

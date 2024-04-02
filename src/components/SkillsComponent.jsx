@@ -1,7 +1,13 @@
 import './css/SkillsStyles.css'
 import SkillCardViewComponent from './SkillCardViewComponent'
+import SideMenuComponent from './SideMenuComponent'
+import { useEffect } from 'react'
 
 function SkillsComponent(){
+
+    useEffect(() => {
+        console.log("it works");
+    })
 
     const cards_view_data = {
         web_dev: {
@@ -98,20 +104,25 @@ function SkillsComponent(){
 
     return(
         <>
-        <div className="skills_main_container">
-            <ul className="skills_list">
-                <li>
-                    <SkillCardViewComponent card_view_info={cards_view_data.web_dev}/>
-                </li>
-                <li>
-                    <SkillCardViewComponent card_view_info={cards_view_data.api_dev}/>
-                    <SkillCardViewComponent card_view_info={cards_view_data.android_dev}/>
-                </li>
-                <li>
-                    <SkillCardViewComponent card_view_info={cards_view_data.db_management}/>
-                    <SkillCardViewComponent card_view_info={cards_view_data.languages}/>
-                </li>
-            </ul>
+        <div className='global_container'>
+            <div className='side_menu_container'>
+                <SideMenuComponent/>
+            </div>
+            <div className="skills_main_container">
+                <ul className="skills_list">
+                    <li>
+                        <SkillCardViewComponent card_view_info={cards_view_data.web_dev}/>
+                    </li>
+                    <li>
+                        <SkillCardViewComponent card_view_info={cards_view_data.api_dev}/>
+                        <SkillCardViewComponent card_view_info={cards_view_data.android_dev}/>
+                    </li>
+                    <li>
+                        <SkillCardViewComponent card_view_info={cards_view_data.db_management}/>
+                        <SkillCardViewComponent card_view_info={cards_view_data.languages}/>
+                    </li>
+                </ul>
+            </div>
         </div>
         </>
     )

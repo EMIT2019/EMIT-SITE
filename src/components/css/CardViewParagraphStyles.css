@@ -1,0 +1,15 @@
+@font-face {
+    font-family:lucoteciaRegular;
+    src: url("src/assets/fonts/lucotecia.regular.otf");
+}
+
+.card_description {
+    margin-top:30px;
+}
+
+.card_description p {
+    font-family:lucoteciaRegular;
+    color:#B5B5B5;
+    font-size:25px;
+    line-height:27px;
+}

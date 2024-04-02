@@ -1,0 +1,122 @@
+.previous_job_container {
+    width:450px;
+    height:fit-content;
+    background-color:#161616;
+    border-radius:15px;
+    padding:15px;
+}
+
+.heading_info_container {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+@font-face {
+    font-family:lucoteciaBold;
+    src: url("src/assets/fonts/lucotecia.bold.otf");
+}
+
+@font-face {
+    font-family:lucoteciaRegular;
+    src: url("src/assets/fonts/lucotecia.regular.otf");
+}
+
+.date_range_container {
+    width:fit-content;
+    height:fit-content;
+}
+
+.date_range_container p {
+    color:#B5B5B5;
+    font-size:25px;
+    font-family:lucoteciaBold;
+}
+
+.marker_maps_container {
+    width:fit-content;
+    height:fit-content;
+}
+
+.marker_maps_container a {
+    width:25px;
+    height:25px;
+}
+
+.marker_maps_container a img {
+    width:inherit;
+    height:inherit;
+}
+
+.company_name_container h2 {
+    font-size:25px;
+    color:#ffffff;
+    font-family:lucoteciaBold;
+}
+
+.button_container button {
+    width:134px;
+    height:45px;
+    color:#ffffff;
+    font-size:18px;
+    font-family:lucoteciaBold;
+    background-color:#9244F2;
+    border:none;
+    cursor: pointer;
+}
+
+.references_container {
+    width:100%;
+    height:fit-content;
+    display:none;
+}
+
+.references_container_animation {
+    width:100%;
+    height:fit-content;
+    margin-top:40px;
+    margin-bottom:20px;
+    display:block;
+}
+
+.references_title h4 {
+    color:#ffffff;
+    font-size:25px;
+    font-family:lucoteciaBold;
+}
+
+.references_list {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.references_list li {
+    display:flex;
+    flex-direction:row;
+}
+
+.ref_list {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.ref_list div {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    column-gap:20px;
+}
+
+.references_list li p {
+    color:#B5B5B5;
+    font-size:20px;
+    font-family:lucoteciaRegular;
+    margin:0;
+}
+
+.references_list li img {
+    width:18px;
+    height:19px;
+}
