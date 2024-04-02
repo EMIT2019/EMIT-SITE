@@ -1,0 +1,48 @@
+.social_media_container {
+    width:300px;
+    height:fit-content;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.social_media_nav_container {
+    width:200px;
+    height:fit-content;
+}
+
+.social_media_list {
+    width:inherit;
+    height:fit-content;
+    display:flex;
+    flex-direction:row;
+    column-gap:10px;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.social_media_list li {
+    width:40px;
+    height:40px;
+}
+
+.social_media_list li a {
+    width:40px;
+    height:40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.social_media_list li img {
+    width:20px;
+    height:20px;
+    transition-duration:0.2s;
+}
+
+.social_media_list li img:hover {
+    width:25px;
+    height:25px;
+}

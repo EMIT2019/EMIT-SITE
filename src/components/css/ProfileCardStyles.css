@@ -1,0 +1,40 @@
+.profile_card {
+    width:inherit;
+    height:fit-content;
+}
+
+.picture_container {
+    width:inherit;
+    height:300px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.picture_container img {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+.name_container {
+    width:300px;
+    height:fit-content;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+@font-face {
+    font-family:lucoteciaExtraBold;
+    src: url("src/assets/fonts/lucotecia.extra-bold.otf");
+}
+
+.name_container h1 {
+    width:200px;
+    color:#ffffff;
+    font-size:60px;
+    font-family:lucoteciaExtraBold;
+}

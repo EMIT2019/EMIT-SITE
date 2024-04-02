@@ -1,0 +1,55 @@
+.menu_container {
+    width:300px;
+    height:fit-content;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:50px;
+}
+
+.menu_nav_container {
+    width:200px;
+    height:fit-content;
+}
+
+.menu_nav_list {
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+}
+
+.menu_nav_list li {
+    width:inherit;
+    height:60px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    cursor: pointer;
+    transition-duration:0.2s;
+}
+
+@font-face {
+    font-family:lucoteciaMedium;
+    src: url("src/assets/fonts/lucotecia.medium.otf");
+}
+
+.menu_nav_list li h4 {
+    color:#ffffff;
+    font-family:lucoteciaMedium;
+    font-size:25px;
+    transition-duration:0.2s;
+}
+
+/*Hovers*/
+.menu_nav_list li:hover {
+    background-color:#ffffff;
+}
+
+.menu_nav_list li:hover h4 {
+    color:#060606;
+}
+/*Hovers*/
