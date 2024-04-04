@@ -43,7 +43,9 @@ function PreviousJobsComponent() {
             <div className="previous_jobs_container">
                 <ul className="previous_jobs_list">
                     {card_view_data.map((item, index) => (
-                        <PreviousJobCardViewComponent key={index} card_view_info={item}/>
+                        <li key={index}>
+                            <PreviousJobCardViewComponent card_view_info={item}/>
+                        </li>
                     ))}
                 </ul>
             </div>

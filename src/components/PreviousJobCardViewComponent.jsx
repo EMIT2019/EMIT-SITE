@@ -53,8 +53,8 @@ function PreviousJobCardViewComponent(data){
                         <ul className='references_list'>
                             <li>
                                 <div className='ref_list'>
-                                    {references.map((item) => (
-                                        <div>
+                                    {references.map((item, index) => (
+                                        <div key={index}>
                                             <p>{item.ref_info}</p>
                                             <img src='src\assets\icons\Digital_Glyph_White.png' alt='whatsapp_icon'/>
                                         </div>

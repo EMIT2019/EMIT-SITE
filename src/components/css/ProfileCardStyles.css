@@ -20,7 +20,7 @@
 
 .name_container {
     width:300px;
-    height:fit-content;
+    height:150px;
     display:flex;
     flex-direction:row;
     justify-content:center;
