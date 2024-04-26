@@ -27,7 +27,7 @@ function SkillsComponent(){
                 }, 
                 {
                     technology: "React JS", 
-                    level: 23
+                    level: 30
                 }, 
                 {
                     technology: "Bootstrap", 

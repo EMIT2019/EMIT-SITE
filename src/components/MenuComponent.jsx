@@ -21,7 +21,7 @@ function MenuComponent(){
                         <Link to="/projects"><h4>PROJECTS</h4></Link>
                     </li>
                     <li>
-                        <h4>CONTACT</h4>
+                        <Link to="/contact"><h4>CONTACT</h4></Link>
                     </li>
                 </ul>
             </nav>

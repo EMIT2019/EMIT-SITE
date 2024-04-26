@@ -1,0 +1,149 @@
+.form_container {
+    width:1000px;
+    height:600px;
+    border-radius:15px;
+    margin-top:90px;
+    margin-right:250px;
+    background-color:#161616;
+    display:flex;
+    flex-direction:row;
+}
+
+.info_section {
+    width:50%;
+    height:inherit;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    background:url('../../assets/images/Building.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:40%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.info_list {
+    width:350px;
+    height:400px;
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    row-gap:60px;
+}
+
+.info_item {
+    display:flex;
+    flex-direction:row;
+}
+
+.icon {
+    width:50px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.info_text {
+    width:300px;
+}
+
+@font-face {
+    font-family:lucoteciaSemiBold;
+    src: url('src/assets/fonts/lucotecia.semi-bold.otf');
+}
+
+@font-face {
+    font-family:lucoteciaRegular;
+    src: url('src/assets/fonts/lucotecia.regular.otf');
+}
+
+@font-face {
+    font-family:lucoteciaBold;
+    src: url('src/assets/fonts/lucotecia.bold.otf');
+}
+
+.heading_section h4 {
+    margin:0;
+    padding:0;
+    color:#ffffff;
+    font-size:30px;
+    font-family:lucoteciaSemiBold;
+    margin-bottom:5px;
+}
+
+.info_content_section p {
+    color:#B5B5B5;
+    font-size:20px;
+    padding:0;
+    margin:0;
+    font-family:lucoteciaRegular;
+}
+
+.info_content_section a {
+    color:#EAD9FF;
+    font-size:20px;
+    padding:0;
+    margin:0;
+    font-family:lucoteciaRegular;
+}
+
+.icon img {
+    width:30px;
+}
+
+.form_section {
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+}
+
+.form_content form {
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+}
+
+.form_content form input, textarea {
+    background-color:#222222;
+    border:0.5px solid #ffffff;
+    font-family:lucoteciaRegular;
+    font-size:25px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:10px;
+    padding-top:5px;
+    color:#ffffff;
+}
+
+.form_content form button {
+    width:160px;
+    height:45px;
+    background-color:#9244F2;
+    font-size:20px;
+    color:#ffffff;
+    font-family:lucoteciaBold;
+    cursor: pointer;
+    border:none;
+    transition-duration:0.2s;
+}
+
+.form_content form button:hover {
+    width:163px;
+    height:46px;
+}
+
+.form_heading {
+    margin-bottom:40px;
+}
+
+.form_heading h4 {
+    font-size:50px;
+    color:#ffffff;
+    font-family:lucoteciaBold;
+    margin:0;
+    padding:0;   
+}

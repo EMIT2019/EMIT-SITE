@@ -13,10 +13,7 @@ function PreviousJobsComponent() {
             job_description: "My work at Lendflow was about making calls to potential clients to sell them financial products. I had to collect useful information about their business needs and use it as an advantage for selling those products.",
             references: [
                 {
-                    ref_info: "Heyling Briones  +505-89723498"
-                },
-                {
-                    ref_info: "Martin Salinas  +505-56234588"
+                    ref_info: "Heyling Briones  +505-86973164"
                 }
             ]
         },
@@ -28,7 +25,10 @@ function PreviousJobsComponent() {
             job_description: "Working in this educational center, I had to teach English lessons, but I had to adapt my way of teaching into a more flexible way because there were inclusive kids that learn in many different ways than just the traditional ways.",
             references: [
                 {
-                    ref_info: "Lic. Amalia Medina  +505-78562345"
+                    ref_info: "Lic. Amalia Medina  +505-88681784"
+                },
+                {
+                    ref_info: "Lic. Juan Carlos Talavera  +505-88681784"
                 }
             ]
         }

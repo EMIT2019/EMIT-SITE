@@ -4,6 +4,7 @@ import SkillsComponent from '../components/SkillsComponent'
 import PreviousJobsComponent from '../components/PreviousJobsComponent'
 import ProjectsComponent from '../components/ProjectsComponent';
 import HomeComponent from '../components/HomeComponent';
+import ContactComponent from '../components/ContactComponent';
 
 const routesConfig = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const routesConfig = createBrowserRouter([
     {
         path: '/projects',
         element: <ProjectsComponent/>
+    },
+    {
+        path: '/contact',
+        element: <ContactComponent/>
     }
 ]);
 
